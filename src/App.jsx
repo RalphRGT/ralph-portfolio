@@ -184,7 +184,8 @@ function App() {
 
     <h1
       style={{
-        fontSize: "56px",
+        fontSize: window.innerWidth <= 768 ? "34px" : "56px",
+        lineHeight: window.innerWidth <= 768 ? "1.2" : "1.1",
         marginBottom: "20px",
         color: "#0f172a",
       }}
