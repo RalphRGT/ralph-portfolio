@@ -520,7 +520,7 @@ function App() {
         <p style={contactTextStyle}>
   LinkedIn:{" "}
   <a
-    href="https://www.linkedin.com/in/ralph-george-443535253"
+    href={"https://www.linkedin.com/in/ralph-george-443535253"}
     target="_blank"
     rel="noopener noreferrer"
     style={contactLinkStyle}
