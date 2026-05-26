@@ -335,6 +335,7 @@ function App() {
   </p>
 
   <div
+  
     style={{
       display: "grid",
       gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
@@ -403,31 +404,37 @@ function App() {
 </div>
 
     <div className="card-hover" style={projectCardStyle}>
-      <p style={projectLabelStyle}>Next Project</p>
+  <p style={projectLabelStyle}>Analytics Pipeline Project</p>
 
-      <h3 style={projectTitleStyle}>
-        Future Project Slot
-      </h3>
+  <h3 style={projectTitleStyle}>
+    Drug Launch Performance Analytics
+  </h3>
 
-      <p style={projectTextStyle}>
-        You can later use this card for another project that supports your target
-        roles and shows your practical skills in reporting, analysis, or systems work.
-      </p>
+  <p style={projectTextStyle}>
+    An end-to-end pharmaceutical analytics project designed to track and forecast
+    post-launch drug performance using synthetic commercial data, physician behaviour,
+    prescription trends, and sales activity.
+  </p>
 
-      <div style={tagWrapperStyle}>
-        <span style={tagStyle}>Coming Soon</span>
-      </div>
-
-      <div style={{ marginTop: "22px" }}>
-        <p style={miniInfoTitleStyle}>Suggested use</p>
-        <ul style={compactListStyle}>
-          <li>ERP or operations-focused work</li>
-          <li>Data analysis or process improvement project</li>
-          <li>A business-facing technical solution</li>
-        </ul>
-      </div>
-    </div>
+  <div style={tagWrapperStyle}>
+    <span style={tagStyle}>Python</span>
+    <span style={tagStyle}>Forecasting</span>
+    <span style={tagStyle}>Survival Analysis</span>
+    <span style={tagStyle}>Dashboarding</span>
+    <span style={tagStyle}>Healthcare Analytics</span>
   </div>
+
+  <div style={{ marginTop: "22px" }}>
+    <p style={miniInfoTitleStyle}>Highlights</p>
+    <ul style={compactListStyle}>
+      <li>Built a full analytics pipeline covering physician segmentation, adoption analysis, forecasting, and adherence tracking</li>
+      <li>Generated linked synthetic datasets for physicians, prescriptions, and sales calls to simulate a six-month launch period</li>
+      <li>Measured sales effectiveness, territory performance, and patient persistence using statistical and business analytics methods</li>
+      <li>Produced dashboard-ready outputs and priority call lists for commercial decision-making</li>
+    </ul>
+  </div>
+</div>
+</div>
 </section>
 
       <section
@@ -520,7 +527,11 @@ function App() {
         <p style={contactTextStyle}>
   LinkedIn:{" "}
   <a
-    href={"https://www.linkedin.com/in/ralph-george-443535253"}
+    href="https://www.linkedin.com/in/ralph-george-443535253"
+    onClick={(e) => {
+      e.preventDefault();
+      window.open("https://www.linkedin.com/in/ralph-george-443535253", "_blank", "noopener,noreferrer");
+    }}
     target="_blank"
     rel="noopener noreferrer"
     style={contactLinkStyle}
