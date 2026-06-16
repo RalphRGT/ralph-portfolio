@@ -2,22 +2,16 @@ import cvFile from "./assets/Ralph George CV.pdf";
 
 function App() {
   const strengths = [
-    "SQL & Data Analysis",
-    "Power BI Dashboards",
-    "ERP & Systems Support",
-    "Process Improvement",
-    "Excel Reporting",
-    "Requirement Gathering",
-    "Workflow Analysis",
-    "Python for Analytics",
-  ];
+  "SQL & Data Analysis",
+  "Power BI & Dashboarding",
+  "Software Development & Application Support",
+  "Reporting & KPI Tracking",
+  "Requirements Gathering",
+  "Root Cause Analysis",
+  "Process Improvement",
+  "Python for Analytics",
+];
 
-  const experienceHighlights = [
-    "Analysed sales and inventory data using Excel and SQL to support business operations and stock decisions.",
-    "Built dashboards for monthly performance insights and stock planning in a live retail environment.",
-    "Supported ERP troubleshooting, requirements analysis, and functional improvement across business processes.",
-    "Resolved 50+ technical issues and contributed to a 20% reduction in downtime.",
-  ];
 
   return (
     <div
@@ -183,15 +177,15 @@ function App() {
     </p>
 
     <h1
-      style={{
-        fontSize: window.innerWidth <= 768 ? "34px" : "56px",
-        lineHeight: window.innerWidth <= 768 ? "1.2" : "1.1",
-        marginBottom: "20px",
-        color: "#0f172a",
-      }}
-    >
-      Business Analytics Graduate
-    </h1>
+  style={{
+    fontSize: window.innerWidth <= 768 ? "28px" : "44px",
+    lineHeight: window.innerWidth <= 768 ? "1.2" : "1.1",
+    marginBottom: "20px",
+    color: "#0f172a",
+  }}
+>
+  Business Analytics & Systems Professional
+</h1>
 
     <h2
       style={{
@@ -201,7 +195,7 @@ function App() {
         color: "#334155",
       }}
     >
-      Data Analysis | ERP & Systems Support | Reporting | Process Improvement
+      Data Analysis | Software Development | Reporting | Power BI | ERP & Systems Support
     </h2>
 
     <p
@@ -213,8 +207,8 @@ function App() {
         color: "#475569",
       }}
     >
-      I combine business analytics, dashboarding, ERP support, and process-focused problem solving
-      to help organisations make better operational and data-driven decisions.
+      I combine business analytics, dashboarding, ERP development support 
+      and technical problem solving to help organisations improve business systems, reporting and data-driven decision-making..
     </p>
 
     <div
@@ -260,9 +254,9 @@ function App() {
   <div style={mainCardStyle} className="card-hover">
     <p style={bodyTextStyle}>
       I am an MSc Business Analytics graduate with a background in Computer Science
-      and practical experience across data analysis, dashboarding, ERP support,
+      and practical experience across data analysis, dashboarding, Software Development,ERP
       and business process improvement. My interest lies in roles where data,
-      systems, and operations come together to improve efficiency and support
+      systems and technical support come together to improve efficiency and support
       better decision-making.
     </p>
   </div>
@@ -318,7 +312,7 @@ function App() {
     margin: "0 auto",
   }}
 >
-  <h2 style={sectionHeadingStyle}>Selected Projects</h2>
+  <h2 style={sectionHeadingStyle}>My Projects</h2>
 
   <p
     style={{
@@ -346,7 +340,7 @@ function App() {
       <p style={projectLabelStyle}>Project 1</p>
 
       <h3 style={projectTitleStyle}>
-        PresciSafe – AI-Enabled Prescription Fraud Detection Platform
+        PresciSafe – Prescription Fraud Detection
       </h3>
 
       <p style={projectTextStyle}>
@@ -365,10 +359,11 @@ function App() {
       <div style={{ marginTop: "22px" }}>
         <p style={miniInfoTitleStyle}>Highlights</p>
         <ul style={compactListStyle}>
-          <li>Detected anomalies such as doctor shopping and overuse</li>
-          <li>Combined analytics, ML concepts, and dashboard reporting</li>
-          <li>Built as a practical healthcare fraud-monitoring solution</li>
-        </ul>
+  <li>Developed a fraud detection platform for identifying suspicious prescription activity using analytics and machine learning</li>
+  <li>Applied anomaly detection techniques to generate fraud-risk insights and support early intervention</li>
+  <li>Built dashboard-driven monitoring and alert workflows for healthcare stakeholders</li>
+  <li>Combined Python, SQL, Power BI, Streamlit, and FastAPI concepts into a practical end-to-end solution</li>
+</ul>
       </div>
     </div>
 
@@ -454,31 +449,6 @@ function App() {
       gap: "20px",
     }}
   >
-    <div className="card-hover" style={cardStyle}>
-      <p
-        style={{
-          fontSize: "14px",
-          fontWeight: "700",
-          textTransform: "uppercase",
-          color: "#2563eb",
-          marginBottom: "8px",
-        }}
-      >
-        Co-Founder, Business Systems Analyst
-      </p>
-      <h3 style={cardTitleStyle}>Concours Fashions</h3>
-      <p style={smallTextStyle}>
-        Worked across Business analysis, inventory planning, dashboards and POS-related
-        decision support in a live retail setting.
-      </p>
-
-      <ul style={listStyle}>
-        <li>Used Excel and SQL to support sales and stock decisions</li>
-        <li>Built dashboards for monthly performance and stock planning</li>
-        <li>Supported POS and inventory system implementation decisions</li>
-        <li>Contributed to pricing, vendor coordination, and seasonal planning</li>
-      </ul>
-    </div>
 
     <div className="card-hover" style={cardStyle}>
       <p
@@ -494,16 +464,15 @@ function App() {
       </p>
       <h3 style={cardTitleStyle}>Coral Business Solutions</h3>
       <p style={smallTextStyle}>
-        Supported ERP-related workflows through troubleshooting, requirements analysis,
-        SQL-based data work, and Power BI reporting.
-      </p>
+  Worked within the ERP development team to support application maintenance, software enhancements, SQL-based troubleshooting, and business systems improvement across enterprise workflows.
+</p>
 
-      <ul style={listStyle}>
-        <li>Resolved 50+ technical issues and helped reduce downtime by 20%</li>
-        <li>Translated business requirements into ERP functional specifications</li>
-        <li>Built SQL-based data systems for operational and reporting needs</li>
-        <li>Created Power BI dashboards to highlight inefficiencies and insights</li>
-      </ul>
+<ul style={listStyle}>
+  <li>Resolved 50+ technical and functional ERP issues, helping improve application reliability and reduce downtime</li>
+  <li>Converted business requirements into ERP functional specifications and software enhancement needs</li>
+  <li>Wrote and executed SQL queries for troubleshooting, data validation, and reporting support</li>
+  <li>Contributed to ERP module maintenance and interface improvements using Java and HTML-based components</li>
+</ul>
     </div>
   </div>
 </section>
